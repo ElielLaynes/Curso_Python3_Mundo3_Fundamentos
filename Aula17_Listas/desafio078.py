@@ -9,8 +9,7 @@
     # Pisçoes na lista
 
 valores = []
-maior = 0
-menor = 0
+maior = menor = 0
 
 for cont in range(0, 5):
     valores.append( int ( input ( f'Digite um Valor Para a Posição {cont}: ' ) ) )
