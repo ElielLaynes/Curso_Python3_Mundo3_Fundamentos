@@ -24,7 +24,7 @@ Acima temos a lista pessoa e dentro dela temos outras 3 lista com nome e idade d
 
 # Exemplos Práticos
 
-'''
+
 # Ligação entre listas
 teste = list()
 teste.append('Eliel')
@@ -54,11 +54,11 @@ teste[1] = 28
 
 teste1.append(teste[:])
 print(teste1)
-'''
+
 # Consultando elementos de listas aninhadas
 
 galera = [ [ 'Eliel', 26 ], [ 'Mariana', 27 ], [ 'João', 19 ], [ 'Débora', 22 ] ]
-'''
+
 print(f'Toda a Lista: {galera}')
 print(f'item de índice 1 e 1: {galera[1][1]}')
 print(f'item de índice 0 e 0: {galera[0][0]}')
@@ -92,7 +92,7 @@ print('-' * 30)
 # PRINT FORMATADO
 for pessoa in galera:
     print(f'{pessoa[0]} tem {pessoa[1]} anos de Idade.')
-'''
+
 
 # Capiturando o dado e colocando em uma lista temporária
 
